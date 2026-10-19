@@ -1,0 +1,23 @@
+# секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.env
+
+# локальные данные — в публичный репозиторий не попадают никогда
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.ofx
+data/
+export/
+
+# сборка и инструменты
+bin/
+build/
+dist/
+node_modules/
+.DS_Store
